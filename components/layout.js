@@ -20,8 +20,8 @@ export default function Layout({ children }) {
               priority
               src="/images/Stephen Headshot.jpg"
               className={utilStyles.borderCircle}
-              height={60}
-              width={60}
+              height={80}
+              width={80}
               alt={name}
             />
       </div>
@@ -35,7 +35,9 @@ export default function Layout({ children }) {
        
       </ul>
    </header>
+    
      <main>{children}</main>
+     
     </div>
   )
 }

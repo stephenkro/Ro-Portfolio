@@ -1,0 +1,35 @@
+.welcome {
+   font-size:5.0rem;
+   border-style:solid;
+   padding-left:1em;
+   border-width:2px;
+   border-color:black;
+   color:white;
+   background-color:black;
+}
+
+.about {
+ display:flex;
+ justify-content: space-between;
+ max-width: 70rem;
+ margin-left:3.5em;
+ margin-top:5rem;
+ border-style:solid;
+ background-image:linear-gradient(to bottom, #8ac4d0, #28527a);
+ border-width:2px;
+ color:white;
+ font-weight: bold;
+}
+.about > p {
+    margin:2rem;
+    padding-top: 1.0rem;
+    padding-left: 2rem;
+    font-size:1.2rem;
+}
+.surfImg{
+   
+}
+.about > h1 {
+    font-size: 2rem;
+}
+
