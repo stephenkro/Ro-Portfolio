@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
   return (
@@ -9,10 +9,8 @@ export default function Home() {
         <title>Stephen Ro</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-    </section>
+        <h1>Welcome! My name is Stephen Ro.</h1>
+      </section>
     </Layout>
-  )
+  );
 }
-
-

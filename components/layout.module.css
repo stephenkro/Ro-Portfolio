@@ -1,5 +1,5 @@
 .container {
-    /* max-width: 36rem; */
+    /* max-width: 50rem; */
     padding: 0 1rem;
     margin: 3rem auto 6rem;
   }
@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin:5%;
     
   }
   
@@ -18,5 +19,27 @@
   .navi {
     display:flex;
     justify-content:space-around;
-  }
+    align-items: center;
+}
+.name {
+  display:flex;
+  justify-content: space-evenly;
+  margin-right:40%
   
+}
+.link {
+  display:flex;
+  justify-content: space-between;
+}
+
+.link > li {
+  margin-left: 20px;
+  font-weight:bold;
+  font-size: 1.5rem;
+}
+
+.name > .image {
+  margin-right: 20px;
+  margin-top:20px;
+}
+
