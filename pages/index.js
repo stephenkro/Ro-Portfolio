@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import homeStyles from "./home.module.css";
 import Image from "next/image";
+import Typical from 'react-typical'
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <title>Stephen Ro</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <h1 className={homeStyles.welcome}>Welcome! I'm Stephen Ro.</h1>
+        <h1 className={homeStyles.welcome}><Typical steps={[`Welcome! I'm Stephen Ro`, 1000, ]}
+        loop={Infinity}
+        wrapper="p"/></h1>
       </section>
       <section className={homeStyles.about}>
         {/* <h1>About Me</h1> */}

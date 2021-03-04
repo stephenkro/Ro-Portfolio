@@ -1,0 +1,36 @@
+.container {
+  max-width: 70rem;
+  margin-left: 4.5em;
+  margin-bottom: em;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.container h1 {
+    font-size:4em;
+}
+.projectContainer {
+    display:flex;
+}
+.navihealth {
+    display:flex;
+    flex-direction:column; 
+    align-items:center;
+    margin-right: 6em;
+}
+.navihealth h2:hover {
+    text-decoration: underline;
+}
+.jellybean{
+    display:flex;
+    flex-direction:column; 
+    align-items:center;
+}
+.jellybean h2:hover{
+    text-decoration: underline;
+}
+
+.jellybeanshoe {
+ 
+}

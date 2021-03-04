@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Typical from "react-typical"
 
 const name = "Stephen Ro";
 export const siteTitle = "Stephen Ro Portfolio";
@@ -40,7 +41,9 @@ export default function Layout({ children }) {
       </header>
       <main>{children}</main>
       <footer className={styles.footer}>
-        <h1>Contact Me!</h1>
+        <h1><Typical steps={[`Contact Me!`, 1000, ` Github`, 2000, ` Linkedin`, 2000, ` Email`, 2000]}
+        loop={Infinity}
+        wrapper="p"/></h1>
         <div className={styles.iconContainer}>
         <a href="https://github.com/stephenkro">
           <img src="/images/githubicon.svg" width="80px" height="80px" />
