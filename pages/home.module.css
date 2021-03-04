@@ -1,35 +1,89 @@
 .welcome {
-   font-size:5.0rem;
-   border-style:solid;
-   padding-left:1em;
-   border-width:2px;
-   border-color:black;
-   color:white;
-   background-color:black;
+  font-size: 5rem;
+  border-style: solid;
+  padding-left: 1em;
+  border-width: 2px;
+  border-color: black;
+  color: white;
+  background-color: black;
 }
 
 .about {
- display:flex;
- justify-content: space-between;
- max-width: 70rem;
- margin-left:3.5em;
- margin-top:5rem;
- border-style:solid;
- background-image:linear-gradient(to bottom, #8ac4d0, #28527a);
- border-width:2px;
- color:white;
- font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin-left: 3.5em;
+  margin-top: 5rem;
+  border-style: solid;
+  background-image: linear-gradient(to bottom, #28527a, #8ac4d0);
+  border-width: 2px;
+  color: white;
+  font-weight: bold;
 }
 .about > p {
-    margin:2rem;
-    padding-top: 1.0rem;
-    padding-left: 2rem;
-    font-size:1.2rem;
+  margin: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-size: 1.2rem;
 }
-.surfImg{
-   
+.skills {
+  max-width: 70rem;
+  margin-left: 3.5em;
+  margin-top: 8rem;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+
 }
-.about > h1 {
-    font-size: 2rem;
+.skills{
+    background-image: linear-gradient(to bottom, #28527a, #8ac4d0, #f4d160);
+    border-radius: 6%;
+}
+.skills h1 {
+    font-size:2.5em;
+    text-decoration: underline;
+    color:white;
+}
+.skills h3 {
+    font-size:1.5em;
+    margin-left:9em;
+    margin-bottom: 1.0em;
+    color:whitesmoke;
+}
+.skills li {
+  background-color: #8ac4d0;
+  color:white;
+  border-radius:7%;
+  margin-left:2em;
+  margin-right:2em;
+  font-size:1.2em;
+  padding:0.5rem;
 }
 
+.proficient h3 {
+    margin-left:19.8em;
+}
+/* .proficient ul {
+    background-color:#28527a;
+} */
+.knowledgeable h3 {
+    margin-left: 12.5em;
+    margin-top:2em;
+}
+/* .knowledgeable ul {
+    background-color:#28527a;
+} */
+.familiar {
+    margin-bottom:2em;
+}
+/* .familiar ul {
+    background-color:#28527a;
+} */
+.familiar h3 {
+    margin-left: 11.5em;
+    margin-top:2em;
+}
+
+.about > h1 {
+  font-size: 2rem;
+}

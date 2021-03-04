@@ -8,7 +8,9 @@ export default function Projects() {
         <Head>
           <title>Projects</title>
         </Head>
+        <section>
         <h1>Projects</h1>
+        </section>
         
       </Layout>
     );
